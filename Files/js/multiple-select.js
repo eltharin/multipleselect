@@ -1323,16 +1323,16 @@
       return $elm[0].getAttribute('label');
     },
     formatSelectAll: function formatSelectAll() {
-      return '[Select all]';
+      return '[Tout sélectionner]'
     },
     formatAllSelected: function formatAllSelected() {
-      return 'All selected';
+      return 'Tous';
     },
     formatCountSelected: function formatCountSelected() {
-      return '# of % selected';
+      return '# sur % selectionné(s)'
     },
     formatNoMatchesFound: function formatNoMatchesFound() {
-      return 'No matches found';
+      return 'Aucune donnée trouvée'
     },
     onOpen: function onOpen() {
       return false;
