@@ -1001,7 +1001,7 @@
 
         if (this.options.container) {
           var offset = this.$drop.offset();
-          this.$drop.appendTo($(this.options.container));
+          this.$drop.appendTo(this.$drop.get(0).closest(this.options.container));
           this.$drop.offset({
             top: offset.top,
             left: offset.left
