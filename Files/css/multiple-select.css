@@ -126,7 +126,8 @@
 .ms-drop ul {
   overflow: auto;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+padding-right: 10px;  }
   .ms-drop ul > li {
     list-style: none;
     display: list-item;
