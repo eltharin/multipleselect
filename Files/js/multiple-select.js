@@ -3661,7 +3661,7 @@
           this.$drop.offset({
             top: offset.top,
             left: offset.left
-          }).css('min-width', 'auto').outerWidth(this.$parent.outerWidth());
+          }).css('min-width', 'auto');
         }
 
         var maxHeight = this.options.maxHeight;
